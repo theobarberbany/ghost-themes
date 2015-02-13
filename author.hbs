@@ -1,5 +1,6 @@
 {{!< default}}
 
+<<<<<<< HEAD
 <header class="animated fadeIn" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <div class="container" data-stellar-ratio="0.75">
         <div class="title animated fadeInUp">
@@ -24,3 +25,24 @@
 {{> excerpts}}
 
 {{pagination}}
+=======
+<article class="post clearfix">
+
+    {{#author}}
+
+        <img id="photo" src="{{image}}" alt={{name}} />
+        <div id="details">
+            <header>
+                <h1>{{name}}</h1>
+            </header>
+            <section id="post-body">
+                <h2 class="headline">{{bio}}</h2>
+            </section>
+        </div>
+
+    {{/author}}
+
+</article>
+
+{{> excerpts}}
+>>>>>>> FETCH_HEAD

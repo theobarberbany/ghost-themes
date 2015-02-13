@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "Phantom",
   "version": "5.0.0",
   "description": "A minimalistic theme for Ghost inspired by the Designmodo Journal.",
+=======
+  "name": "Cactus",
+  "version": "1.0.0",
+  "description": "A minimalistic theme for Ghost inspired by Cactus for Mac.",
+>>>>>>> FETCH_HEAD
   "repository": {
     "type": "git",
     "url": "https://github.com/haydenbleasel/ghost-themes.git"

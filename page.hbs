@@ -4,6 +4,7 @@
 
     {{> post-meta}}
 
+<<<<<<< HEAD
     <header class="animated fadeIn" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
         <div class="container" data-stellar-ratio="0.75">
             {{> title}}
@@ -18,5 +19,29 @@
 
 {{! Temporary indentation shift for Handlebars issue }}
 {{> content}}
+=======
+    <article class="post">
+
+        <header>
+            <h1>{{title}}</h1>
+        </header>
+
+        <section id="post-body">
+            {{content}}
+        </section>
+
+        {{!> comments}}
+
+        <footer id="post-meta" class="clearfix">
+            <div><span>Last updated on </span> <time datetime="{{date format='YYYY-MM-DD'}}">{{date format='DD MMM YYYY'}}</time></div>
+            {{> share}}
+        </footer>
+
+    </article>
+
+    <footer>
+        {{! Pagination will go here once Ghost releases it.}}
+    </footer>
+>>>>>>> FETCH_HEAD
 
 {{/post}}

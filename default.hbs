@@ -23,11 +23,19 @@
 
         {{! OpenGraph for Facebook }}
         <meta property="og:title" content="{{meta_title}}" />
+<<<<<<< HEAD
+=======
+        <meta property="og:image" content="{{@blog.url}}/assets/images/open-graph.png" />
+>>>>>>> FETCH_HEAD
         <meta property="og:locale" content="en_US" />
 
         {{! Twitter Card }}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="{{meta_title}}" />
+<<<<<<< HEAD
+=======
+        {{#if @blog.cover}}<meta property="twitter:image" content="{{@blog.cover}}" />{{/if}}
+>>>>>>> FETCH_HEAD
 
         {{! Icons }}
         <link rel="icon" href="{{asset 'favicon.ico'}}" />
@@ -39,14 +47,22 @@
             <link rel="prerender" href="{{@blog.cover}}" />
             <link rel="prefetch" href="{{@blog.cover}}" />
         {{/if}}
+<<<<<<< HEAD
         <link rel="dns-prefetch" href="//fonts.googleapis.com/" />
+=======
+>>>>>>> FETCH_HEAD
 
         {{! Scripts and Stylesheets }}
         <link rel="stylesheet" href="{{asset 'css/normalize.css'}}" />
         <link rel="stylesheet" href="{{asset 'css/basics.css'}}" />
+<<<<<<< HEAD
         <link rel="stylesheet" href="{{asset 'css/animate.css'}}" />
         <link rel="stylesheet" href="{{asset 'css/highlight.css'}}" />
         <link rel="stylesheet" href="{{asset 'css/phantom.css'}}" />
+=======
+        <link rel="stylesheet" href="{{asset 'css/gist.css'}}" />
+        <link rel="stylesheet" href="{{asset 'css/cactus.css'}}" />
+>>>>>>> FETCH_HEAD
         <script src="{{asset 'js/html5shiv-printshiv.js'}}"></script>
         <script src="{{asset 'js/respond.js'}}"></script>
 
@@ -57,6 +73,7 @@
 
     </head>
     <body class="{{body_class}}">
+<<<<<<< HEAD
         <nav class="animated fadeIn navigation">
             <div class="container">
                 <a href="{{@blog.url}}" class="text-right sidebar brand">
@@ -74,11 +91,29 @@
                 <a href="https://github.com/haydenbleasel/phantom" class="theme">Theme: Phantom by Hayden Bleasel</a>
             </div>
         </footer>
+=======
+
+        <section id="wrapper">
+            <header id="header">
+                <a id="title" class="index" href="{{@blog.url}}">{{@blog.title}}</a>
+            </header>
+
+            {{{body}}}
+
+            <footer id="footer">
+                <p class="small">
+                    <a href="https://github.com/haydenbleasel/phantom">Theme: Cactus by Hayden Bleasel</a>
+                </p>
+            </footer>
+
+        </section>
+>>>>>>> FETCH_HEAD
 
         {{ghost_foot}}
 
         {{! Deferred scripts }}
         <script src="{{asset 'js/fastclick.js'}}"></script>
+<<<<<<< HEAD
         <script src="{{asset 'js/stellar.js'}}"></script>
         <script src="{{asset 'js/highlight.js'}}"></script>
         <script src="{{asset 'js/phantom.js'}}"></script>
@@ -108,4 +143,9 @@ a.src="//radar.cedexis.com/1/15166/radar.js";b.body.appendChild(a)}/\bMSIE 6/i
 <!-- End Piwik Code -->
     </body>
     
+=======
+        <script src="{{asset 'js/cactus.js'}}"></script>
+
+    </body>
+>>>>>>> FETCH_HEAD
 </html>

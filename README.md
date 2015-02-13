@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Phantom
 
 A minimalistic theme for [Ghost](https://ghost.org/) inspired by the [Designmodo Journal](http://journal.designmodo.com/).
 
 ![Phantom](assets/images/mockup.jpg)
+=======
+# Cactus
+
+A minimalistic theme for [Ghost](https://ghost.org/) inspired by [Cactus for Mac](http://cactusformac.com/).
+
+![Cactus](assets/images/mockup.jpg)
+>>>>>>> FETCH_HEAD
 
 ## Installation
 
@@ -24,7 +32,10 @@ Once you have that, just open `partials/comments.hbs` and replace the `YOUR_SHOR
 ## Forking and derivatives
 
 I don't really mind what you do with this project, as long as your blog looks awesome. I'd appreciate if you left the `<meta name="designer">` as Hayden Bleasel but I won't hold it against you if you change it. I think it'd be good if you make some reference back to me so people can find the source project, but other than that just have fun. Also, if you're going to make style edits I recommend creating a new stylesheet and linking that up so you can still fetch the latest updates from here without losing all your changes.
+<<<<<<< HEAD
 
 ## Credits
 
 I'd like to give a huge thank you to David Dupouy from [FounderSquad](http://foundersquad.com/en/articles/) for helping me resolve a number of issues with the theme and introduce a new "featured images" functionality.
+=======
+>>>>>>> FETCH_HEAD
